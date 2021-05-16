@@ -1,0 +1,27 @@
+controller_list:
+  - name: fake_feetech_arm_controller
+    type: $(arg execution_type)
+    joints:
+      - joint_1
+      - joint_2
+      - joint_3
+      - joint_4
+      - joint_5
+      - joint_6
+      - joint_7
+  - name: fake_feetech_waist_controller
+    type: $(arg execution_type)
+    joints:
+      - joint_0
+  - name: fake_feetech_head_controller
+    type: $(arg execution_type)
+    joints:
+      - headjoint_8
+      - headjoint_9
+initial:  # Define initial robot poses.
+  - group: feetech_arm
+    pose: home_arm
+  - group: feetech_waist
+    pose: home_waist
+  - group: feetech_head
+    pose: home_head
