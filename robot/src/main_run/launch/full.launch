@@ -1,8 +1,0 @@
-<launch>
-<include file ="$(find main_run)/launch/navi.launch" />
-<include file ="$(find main_run)/launch/arm.launch" />
-<node pkg="main_run" type="navicontroltopic" name="navicontroltopic" output="screen" />
-	<include file ="/home/robot/catkin_ws/src/pointcloud_to_laserscan-lunar-devel/launch/sample_node.launch"/>
-
-
-</launch>
