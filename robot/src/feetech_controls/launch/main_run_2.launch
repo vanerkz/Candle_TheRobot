@@ -1,0 +1,8 @@
+<launch>
+
+  <arg name="usb_port"                default="/dev/ttyUSB0"/>
+
+	<node name="torq_cont" pkg="feetech_controls" type="torq_cont"  required="true" output="screen" args="$(arg usb_port)"  />
+
+
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+
+  <arg name="usb_port"                default="/dev/ttyUSB0"/>
+
+	<node name="write_node" pkg="feetech_controls" type="write_node"  required="true" output="screen" args="$(arg usb_port)"  />
+
+
+</launch>
