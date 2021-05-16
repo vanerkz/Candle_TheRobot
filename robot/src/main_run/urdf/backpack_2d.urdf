@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<robot name="cartographer_backpack_2d">
+  <material name="orange">
+    <color rgba="1.0 0.5 0.2 1" />
+  </material>
+  <material name="gray">
+    <color rgba="0.2 0.2 0.2 1" />
+  </material>
+<material name="blue">
+ <color rgba="0 0 0.8 1"/>
+</material>
+
+  <link name="laser">
+    <visual>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.02" radius="0.04" />
+      </geometry>
+      <material name="blue" />
+    </visual>
+  </link>
+
+
+<link name="base_link">
+     <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+     <geometry>
+         <mesh filename="package://urdf_tutorial/meshes/robot_sim.stl"/>
+	</geometry>
+	<material name="orange" />
+     </visual>
+</link>
+
+  <joint name="laser_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="laser" />
+    <origin xyz="-0.01 0 0.160" rpy="0.0 0.0 0"/>
+  </joint>
+
+</robot>
