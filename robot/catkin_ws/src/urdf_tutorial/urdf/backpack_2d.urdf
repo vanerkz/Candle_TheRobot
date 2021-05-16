@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+
+<robot name="cartographer_backpack_2d">
+  <material name="orange">
+    <color rgba="1.0 0.5 0.2 1" />
+  </material>
+  <material name="gray">
+    <color rgba="0.2 0.2 0.2 1" />
+  </material>
+<material name="blue">
+ <color rgba="0 0 0.8 1"/>
+</material>
+
+<link name="laser">
+      <visual>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.02" radius="0.04" />
+      </geometry>
+      <material name="blue" />
+      </visual>
+</link>
+
+
+<link name="base_link">
+     <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+     <geometry>
+         <mesh filename="package://urdf_tutorial/meshes/robot_p1.stl"/>
+     </geometry>
+	<material name="orange" />
+     </visual>
+</link>
+
+
+<joint name="laser_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="laser" />
+    <origin xyz="0 0 0.2373" />
+</joint>
+
+ <!-- <link name="left_wheel">
+    <visual>
+      <origin rpy="1.57 0 0" xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.027" radius="0.033" />
+      </geometry>
+      <material name="gray" />
+    </visual>
+  </link>
+
+  <link name="right_wheel">
+    <visual>
+      <origin rpy="1.57 0 0" xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.027" radius="0.033" />
+      </geometry>
+      <material name="gray" />
+    </visual>
+  </link>
+
+  <link name="rear_wheel">
+    <visual>
+      <origin rpy="1.57 0 0" xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.027" radius="0.033" />
+      </geometry>
+      <material name="gray" />
+    </visual>
+  </link>
+
+<link name="hub_link">
+     <visual>
+      <origin rpy="0 0 1.57" xyz="0 0 0"/>
+     <geometry>
+         <mesh filename="package://urdf_tutorial/meshes/robot_p1_hub.stl"/>
+     </geometry>
+	<material name="orange" />
+     </visual>
+</link>-->
+
+<!--
+  <joint name="left_wheel_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="base_link" />
+    <child link="left_wheel" />
+    <origin xyz="0.0605 0.1335 -0.04458" />
+  </joint>
+
+ <joint name="right_wheel_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="base_link" />
+    <child link="right_wheel" />
+    <origin xyz="0.0605 -0.1335 -0.04458" />
+  </joint>-->
+<!--
+  <joint name="hub_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="hub_link" />
+    <origin xyz="-0.13 0 -0.049" />
+  </joint>
+
+ <joint name="rear_wheel_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="hub_link" />
+    <child link="rear_wheel" />
+    <origin xyz="-0.0175 0 0.003" />
+  </joint>-->
+</robot>
