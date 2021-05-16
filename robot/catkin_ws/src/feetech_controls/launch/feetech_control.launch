@@ -1,0 +1,7 @@
+<launch>
+
+  <arg name="usb_port"                default="/dev/ttyUSB0"/>
+
+	<node name="feetech_controller" pkg="feetech_controls" type="feetech_controller"  required="true" output="screen" args="$(arg usb_port)"  />
+
+</launch>

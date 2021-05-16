@@ -1,0 +1,11 @@
+<launch>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find feetech_controls)/config/controllers.yaml" command="load"/>
+
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"
+        args="
+            joint_state_controller
+            feetech_arm
+	"/>
+</launch>

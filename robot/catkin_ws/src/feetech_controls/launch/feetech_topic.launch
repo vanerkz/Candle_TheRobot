@@ -1,0 +1,9 @@
+<launch>
+
+  <arg name="usb_port"                default="/dev/feetech"/>
+
+	<!--<node name="ft_node" pkg="feetech_controls" type="ft_node"  required="true" output="screen" args="$(arg usb_port)"  />-->
+
+	<node name="feetech_controller_topic" pkg="feetech_controls" type="feetech_controller_topic"  required="true" output="screen" args="$(arg usb_port)"  />
+
+</launch>
