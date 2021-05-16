@@ -1,0 +1,7 @@
+<launch>
+
+<include file ="$(find main_run)/launch/main_run_mapping.launch" />
+
+<include file ="$(find cartographer_ros)/launch/backpack_2d.launch" />
+
+</launch>

@@ -1,0 +1,21 @@
+obstacle_range: 8
+raytrace_range: 5
+
+footprint: [[-0.275,-0.15], [-0.275,0.15], [0.15, 0.2], [0.15, -0.2]]
+#robot_radius: 0.25
+
+inflation_radius: 5.0
+
+cost_scaling_factor: 3.0
+
+#netural_cost: 66
+#cost_factor: 0.55
+
+map_type: costmap
+observation_sources: scan scan_real
+scan: {sensor_frame: laser, data_type: LaserScan, topic: scan, marking: true, clearing: true}
+scan_real: {sensor_frame: camera_depth_frame, data_type: LaserScan, topic: scan_realsense, marking: true, clearing: true}
+
+
+
+

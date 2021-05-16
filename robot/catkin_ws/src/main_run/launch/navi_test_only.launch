@@ -1,0 +1,23 @@
+<launch>
+<include file ="$(find main_run)/launch/main_run.launch" />
+<include file ="$(find cartographer_ros)/launch/demo_backpack_2d_localization.launch" />
+
+<include file="$(find main_run)/launch/navi_sensors_merged.launch"/>
+
+<include file ="$(find realsense2_camera)/launch/rs_d435_camera_with_model.launch" />
+	
+
+
+<!-- move_base -->
+<include file="$(find main_run)/launch/move_base.launch"/>
+
+
+<node pkg="main_run" type="main_run_node" name="node" output="screen" />
+
+<param name="robot_description"
+    textfile="$(find main_run)/urdf/backpack_2d.urdf" />
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher"
+    type="robot_state_publisher" />
+
+</launch>

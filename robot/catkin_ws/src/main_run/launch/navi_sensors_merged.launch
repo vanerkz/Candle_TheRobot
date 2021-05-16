@@ -1,0 +1,7 @@
+<launch>
+
+	<include file ="/home/robot/catkin_ws/src/pointcloud_to_laserscan-lunar-devel/launch/sample_node.launch"/>
+
+	<include file ="/home/robot/catkin_ws/src/ira_laser_tools-master/launch/laserscan_multi_merger.launch" />
+
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+<include file ="$(find feetech_controls)/launch/feetech_control_interface.launch" />
+<include file ="$(find feetech_moveit)/launch/moveit_arm.launch" />
+<include file ="$(find moveit_tutorials)/doc/move_group_interface/launch/arm_topic.launch" />
+<include file ="$(find moveit_tutorials)/doc/perception_pipeline/launch/object_view_filter.launch" />
+<include file ="$(find realsense2_camera)/launch/rs_d435_camera_with_model.launch" />
+<include file ="$(find aruco_ros)/launch/single.launch" />
+<node pkg="main_run" type="nodeshutdown" name="nodeshutdown" output="screen" />
+<node pkg="main_run" type="nodelaunch" name="nodelaunch" output="screen" />
+<node pkg="feetech_controls" type="torqtopic" name="torqtopic" output="screen"/>
+</launch>

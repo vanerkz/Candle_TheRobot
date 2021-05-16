@@ -1,0 +1,11 @@
+<launch>
+
+	<include file ="/home/robot/catkin_ws/src/rplidar_ros/launch/rplidar.launch"/>
+
+	<node pkg="odom" type="odommapping" name="odommapping" output="screen" />
+	
+	<include file ="/home/robot/catkin_ws/src/dynamixel-workbench/dynamixel_workbench_controllers/launch/dynamixel_controllers.launch" />
+	
+	<include file ="$(find laser_filters)/examples/box_filter_example.launch" />
+	<!--<include file ="/home/robot/catkin_ws/src/dynamixel-workbench/dynamixel_workbench_operators/launch/wheel_operator.launch" />-->
+</launch>

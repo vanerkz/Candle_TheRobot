@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="main_run" type="nodeshutdown" name="nodeshutdown" output="screen" />
+
+<node pkg="main_run" type="nodelaunch" name="nodelaunch" output="screen" />
+
+</launch>
