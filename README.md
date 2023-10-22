@@ -1,4 +1,4 @@
-# Singapore Robot Candle
+# Candle the Robot, Singapore
 ![image](https://github.com/vanerkz/AUTONOMOUS_ROBOT_PACKAGES/assets/84112168/a3d54876-8192-43aa-ba56-afadcd810b9d)
 
 The project was developed based on the requirement for my final year project in Electrical and Electronic Engineering, Nanyang Technological University. [My FYP Report](https://hdl.handle.net/10356/149758), [Short video](https://youtu.be/7Dy3vTiSgHM?si=XgfZ8NaiyMUA-3hd) 
