@@ -4,3 +4,4 @@ Therefore, please install individual packages from the original provider.
 Each file has a PURPOSE.txt to explain the purpose of the specific package.
 
 # Useful repositories
+https://github.com/cartographer-project/cartographer_ros
