@@ -7,7 +7,7 @@ This project was developed as part of my Final Year Project in Electrical and El
 The goal of this project is to create a **low-cost autonomous robotic platform** (estimated cost: SGD $4000) for **research and educational purposes**.
 
 * Simplified robot arm platform (arm-only version of this robot):
-  [https://github.com/vanerkz/arm_only](https://github.com/vanerkz/arm_only)
+  [Arm Only](https://github.com/vanerkz/ProfileBot_ArmOnly)
 * Simplified mobile base:
   In progress.
 
