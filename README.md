@@ -21,14 +21,6 @@ Additional resources:
 ![image](https://github.com/vanerkz/AUTONOMOUS_ROBOT_PACKAGES/assets/84112168/a72bb50a-c00f-4805-b5f3-a93d152ed88b)
 ![image](https://github.com/vanerkz/AUTONOMOUS_ROBOT_PACKAGES/assets/84112168/d5d33d6b-74d7-451a-ab56-e8b225bf0fdd)
 
-# Repository Structure
-
-The files in this repository contain **additional or modified components** that extend existing ROS packages.
-
-Users are required to **install the original ROS packages from their respective repositories** before adding the files provided here.
-
-Each package folder includes a `PURPOSE.txt` file describing the purpose and modifications of the specific package.
-
 # Useful Repositories
 * SLAM and mapping: [https://github.com/cartographer-project/cartographer_ros](https://github.com/cartographer-project/cartographer_ros)
 * Robot motion planning: [https://github.com/ros-planning/moveit](https://github.com/ros-planning/moveit)
