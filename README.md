@@ -1,4 +1,5 @@
-# 🤖 ProfileBot
+# ProfileBot
+![image](https://github.com/vanerkz/AUTONOMOUS_ROBOT_PACKAGES/assets/84112168/a3d54876-8192-43aa-ba56-afadcd810b9d)
 
 **ProfileBot** is a low-cost autonomous robotic platform developed as part of a Final Year Project in Electrical and Electronic Engineering at **Nanyang Technological University (NTU)**.
 
@@ -6,7 +7,7 @@ The system is designed for **research and educational applications**, providing 
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 ProfileBot integrates a **mobile base** with a **robotic manipulator**, enabling autonomous navigation and interaction within an environment.
 
@@ -17,7 +18,7 @@ Key objectives:
 
 ---
 
-## 🧩 Modular Components
+## Modular Components
 
 To improve usability and flexibility, simplified versions of the system are available:
 
@@ -31,15 +32,15 @@ To improve usability and flexibility, simplified versions of the system are avai
 
 ## 📚 Resources
 
-* 📄 **FYP Report**
+* **FYP Report**
   [https://hdl.handle.net/10356/149758](https://hdl.handle.net/10356/149758)
 
-* 🎥 **Demonstration Video**
+* **Demonstration Video**
   [https://youtu.be/7Dy3vTiSgHM](https://youtu.be/7Dy3vTiSgHM)
 
 ---
 
-## 🖼️ Robot Platform
+## Robot Platform
 
 <!-- Add images below -->
 
@@ -50,17 +51,17 @@ To improve usability and flexibility, simplified versions of the system are avai
 
 ---
 
-## 🔧 Related Tools & Frameworks
+## Related Tools & Frameworks
 
-* 🗺️ **SLAM & Mapping**
+* **SLAM & Mapping**
   [https://github.com/cartographer-project/cartographer_ros](https://github.com/cartographer-project/cartographer_ros)
 
-* 🤖 **Motion Planning**
+* **Motion Planning**
   [https://github.com/ros-planning/moveit](https://github.com/ros-planning/moveit)
 
 ---
 
-## 💡 Features
+## Features
 
 * Low-cost hardware design (~SGD $4000)
 * Autonomous navigation with SLAM
@@ -70,7 +71,7 @@ To improve usability and flexibility, simplified versions of the system are avai
 
 ---
 
-## 📌 Notes
+## Notes
 
 This project is intended as a **research and learning platform**, and can be extended for:
 
