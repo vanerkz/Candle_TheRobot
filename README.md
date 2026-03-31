@@ -1,42 +1,49 @@
 # ProfileBot
+
 ![image](https://github.com/vanerkz/AUTONOMOUS_ROBOT_PACKAGES/assets/84112168/a3d54876-8192-43aa-ba56-afadcd810b9d)
 
 **ProfileBot** is a low-cost autonomous robotic platform developed as part of a Final Year Project in Electrical and Electronic Engineering at **Nanyang Technological University (NTU)**.
 
-The system is designed for **research and educational applications**, providing a modular and accessible platform for robotics development at an estimated cost of **~SGD $4000**.
+The platform is designed for **research and educational applications**, offering a **modular, extensible, and cost-effective (~SGD $4000)** solution for robotics development.
 
 ---
 
 ## Project Overview
 
-ProfileBot integrates a **mobile base** with a **robotic manipulator**, enabling autonomous navigation and interaction within an environment.
+ProfileBot integrates a **mobile base** with a **robotic manipulator**, enabling autonomous navigation and interaction within real-world environments.
 
-Key objectives:
+The system is built on an **aluminum profile frame**, allowing:
+- Easy modification and reconfiguration  
+- Rapid hardware prototyping  
+- Scalable and customizable system design  
 
-* Develop a **cost-effective robotics platform**
-* Support **SLAM, navigation, and manipulation**
+### Key Objectives
+
+- Develop a **cost-effective robotics platform**
+- Support **SLAM, navigation, and manipulation**
+- Enable **modular and flexible hardware development**
 
 ---
 
 ## Modular Components
 
-To improve usability and flexibility, simplified versions of the system are available:
+To improve flexibility and accessibility, simplified standalone versions are available:
 
-* **Robot Arm Only**
-  [https://github.com/vanerkz/ProfileBot_ArmOnly](https://github.com/vanerkz/ProfileBot_ArmOnly)
+- **Robot Arm Only**  
+  https://github.com/vanerkz/ProfileBot_ArmOnly  
 
-* **Mobile Base Only**
-  [https://github.com/vanerkz/ProfileBot_Base](https://github.com/vanerkz/ProfileBot_Base)
+- **Mobile Base Only**  
+  https://github.com/vanerkz/ProfileBot_Base  
 
 ---
 
 ## Resources
 
-* **FYP Report**
-  [https://hdl.handle.net/10356/149758](https://hdl.handle.net/10356/149758)
+- **FYP Report**  
+  https://hdl.handle.net/10356/149758  
 
-* **Demonstration Video**
-  [https://youtu.be/7Dy3vTiSgHM](https://youtu.be/7Dy3vTiSgHM)
+- **Demonstration Video**  
+  https://youtu.be/7Dy3vTiSgHM  
 
 ---
 
@@ -49,41 +56,46 @@ To improve usability and flexibility, simplified versions of the system are avai
 
 ---
 
-## Related Tools & Frameworks
+## Core Frameworks
 
-* **SLAM & Mapping**
-  [https://github.com/cartographer-project/cartographer_ros](https://github.com/cartographer-project/cartographer_ros)
+The system is built on the **Robot Operating System (ROS)** ecosystem:
 
-* **Motion Planning**
-  [https://github.com/ros-planning/moveit](https://github.com/ros-planning/moveit)
+- **SLAM & Mapping (Cartographer)**  
+  https://github.com/cartographer-project/cartographer_ros  
+
+- **Navigation Stack**  
+  https://github.com/ros-planning/navigation  
+
+- **Motion Planning (MoveIt)**  
+  https://github.com/ros-planning/moveit  
 
 ---
 
 ## Features
 
-* Low-cost hardware design (~SGD $4000)
-* Autonomous navigation with SLAM
-* Robotic arm manipulation capabilities
-* ROS-based modular architecture
-* Suitable for research and education
+- Low-cost hardware design (~SGD $4000)  
+- Autonomous navigation using SLAM  
+- Robotic arm manipulation  
+- Modular ROS-based architecture  
+- Aluminum profile for flexible hardware design  
+- Suitable for research and education  
 
 ---
-## 🔧 Useful Repositories
 
-- **SLAM and Mapping**  
-  https://github.com/cartographer-project/cartographer_ros  
+## Applications
 
-- **Robot Motion Planning**  
-  https://github.com/ros-planning/moveit
-  
-- **Robot Navigation**  
-  https://github.com/ros-planning/navigation
-  
+This platform can be extended for:
+
+- Autonomous service robots  
+- Human-robot interaction  
+- AI-based perception and planning  
+- Robotics education and prototyping  
+
+---
+
 ## Notes
 
-This project is intended as a **research and learning platform**, and can be extended for:
+This project is intended as a **research and development platform**.  
+Users are encouraged to modify and extend both hardware and software components based on their application needs.
 
-* Autonomous service robots
-* Human-robot interaction
-* AI-based perception and planning
 ---
