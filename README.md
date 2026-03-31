@@ -9,7 +9,7 @@ The goal of this project is to create a **low-cost autonomous robotic platform**
 * Simplified robot arm platform (arm-only version of this robot):
   [Arm Only](https://github.com/vanerkz/ProfileBot_ArmOnly)
 * Simplified mobile base:
-  In progress.
+  [Base_Only](https://github.com/vanerkz/ProfileBot_Base)
 
 Additional resources:
 
