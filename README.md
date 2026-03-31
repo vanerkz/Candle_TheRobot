@@ -22,15 +22,15 @@ Key objectives:
 
 To improve usability and flexibility, simplified versions of the system are available:
 
-* 🔹 **Robot Arm Only**
+* **Robot Arm Only**
   [https://github.com/vanerkz/ProfileBot_ArmOnly](https://github.com/vanerkz/ProfileBot_ArmOnly)
 
-* 🔹 **Mobile Base Only**
+* **Mobile Base Only**
   [https://github.com/vanerkz/ProfileBot_Base](https://github.com/vanerkz/ProfileBot_Base)
 
 ---
 
-## 📚 Resources
+## Resources
 
 * **FYP Report**
   [https://hdl.handle.net/10356/149758](https://hdl.handle.net/10356/149758)
@@ -70,7 +70,17 @@ To improve usability and flexibility, simplified versions of the system are avai
 * Suitable for research and education
 
 ---
+## 🔧 Useful Repositories
 
+- **SLAM and Mapping**  
+  https://github.com/cartographer-project/cartographer_ros  
+
+- **Robot Motion Planning**  
+  https://github.com/ros-planning/moveit
+  
+- **Robot Navigation**  
+  https://github.com/ros-planning/navigation
+  
 ## Notes
 
 This project is intended as a **research and learning platform**, and can be extended for:
