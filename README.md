@@ -42,11 +42,9 @@ To improve usability and flexibility, simplified versions of the system are avai
 
 ## Robot Platform
 
-<!-- Add images below -->
-
 <p align="center">
-  <img src="https://github.com/vanerkz/AUTONOMOUS_ROBOT_PACKAGES/assets/84112168/a72bb50a-c00f-4805-b5f3-a93d152ed88b" width="45%">
-  <img src="https://github.com/vanerkz/AUTONOMOUS_ROBOT_PACKAGES/assets/84112168/d5d33d6b-74d7-451a-ab56-e8b225bf0fdd" width="45%">
+  <img src="https://github.com/vanerkz/AUTONOMOUS_ROBOT_PACKAGES/assets/84112168/a72bb50a-c00f-4805-b5f3-a93d152ed88b" height="250">
+  <img src="https://github.com/vanerkz/AUTONOMOUS_ROBOT_PACKAGES/assets/84112168/d5d33d6b-74d7-451a-ab56-e8b225bf0fdd" height="250">
 </p>
 
 ---
